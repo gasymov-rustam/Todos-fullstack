@@ -6,7 +6,7 @@ import { TodosService } from './todos.service';
 
 @Module({
   imports: [SequelizeModule.forFeature([Todo])],
-  controllers: [TodosService],
-  providers: [TodoController],
+  controllers: [TodoController],
+  providers: [TodosService],
 })
 export class TodosModule {}
