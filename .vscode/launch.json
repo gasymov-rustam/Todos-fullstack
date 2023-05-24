@@ -43,5 +43,23 @@
             "stopOnEntry": false,
             "console": "integratedTerminal",
         },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Debug Fullstack App",
+            "cwd": "${workspaceFolder}/server",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+              "run",
+              "start:fullstack-debug",
+              "--",
+              "--inspect-brk"
+            ],
+            "autoAttachChildProcesses": true,
+            "restart": true,
+            "sourceMaps": true,
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+        },
     ]
 }
