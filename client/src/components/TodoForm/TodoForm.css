@@ -1,0 +1,17 @@
+.todoForm__input {
+  width: 92%;
+  margin-right: 10px;
+}
+
+.todoForm__btn {
+  align-self: flex-end;
+  background-color: #0071f7;
+  transition: 0.5s;
+}
+
+.todoForm__btn:hover,
+.todoForm__btn:focus {
+  background-color: #0004f7;
+  border-color: aqua;
+  box-shadow: 0 0 0 0.25rem aqua;
+}
